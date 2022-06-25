@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{659fcb97-ad31-47c3-8d0f-7fbb4dd27116}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.10</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="001_Введение в ООП\Examples\00-simple-class.py" />
+    <Compile Include="001_Введение в ООП\Examples\01-classes-as-objects.py" />
+    <Compile Include="001_Введение в ООП\Examples\02-class-attributes.py" />
+    <Compile Include="001_Введение в ООП\Examples\03-data-attributes.py" />
+    <Compile Include="001_Введение в ООП\Examples\04-methods.py" />
+    <Compile Include="001_Введение в ООП\Examples\05-__init__.py" />
+    <Compile Include="001_Введение в ООП\Examples\06-methods-outside-a-class.py" />
+    <Compile Include="001_Введение в ООП\Examples\07-static-methods.py" />
+    <Compile Include="001_Введение в ООП\Examples\08-class-methods.py" />
+    <Compile Include="001_Введение в ООП\Examples\09-private-members.py" />
+    <Compile Include="001_Введение в ООП\Examples\10-magic-methods.py" />
+    <Compile Include="001_Введение в ООП\Examples\11-singleton.py" />
+    <Compile Include="001_Введение в ООП\Examples\12-password-protected-field.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\00-inheritance.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\01-multiple-inheritance.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\02-mro.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\03-mro.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\04-explicit-superclass-attributes.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\05-super.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\06-super-with-multiple-inheritance.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\07-complex-hierarchy-mro.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\08-isinstance.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\09-issubclass.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\10-polymorphism.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\11-polymorphism.py" />
+    <Compile Include="002_Наследование и полиморфизм\Examples\12-duck-typing.py" />
+    <Compile Include="003_Исключения\Examples\00-runtime_error.py" />
+    <Compile Include="003_Исключения\Examples\01-raise.py" />
+    <Compile Include="003_Исключения\Examples\02-raise.py" />
+    <Compile Include="003_Исключения\Examples\03-try_except.py" />
+    <Compile Include="003_Исключения\Examples\04-try_except.py" />
+    <Compile Include="003_Исключения\Examples\05-incorrect_except_order.py" />
+    <Compile Include="003_Исключения\Examples\06-multiple_exceptions_in_single_clause.py" />
+    <Compile Include="003_Исключения\Examples\07-default_except_clause.py" />
+    <Compile Include="003_Исключения\Examples\08-unhandled_exception.py" />
+    <Compile Include="003_Исключения\Examples\09-unhandled_exception_in_inner_try.py" />
+    <Compile Include="003_Исключения\Examples\10-exception_in_destructor.py" />
+    <Compile Include="003_Исключения\Examples\11-raise_in_except.py" />
+    <Compile Include="003_Исключения\Examples\12-raise_another_exception_in_except.py" />
+    <Compile Include="003_Исключения\Examples\13-raise_from.py" />
+    <Compile Include="003_Исключения\Examples\14-raise_from_None.py" />
+    <Compile Include="003_Исключения\Examples\15-else.py" />
+    <Compile Include="003_Исключения\Examples\16-finally.py" />
+    <Compile Include="003_Исключения\Examples\17-try-finally.py" />
+    <Compile Include="003_Исключения\Examples\18-warnings.py" />
+    <Compile Include="003_Исключения\Examples\19-lbyl.py" />
+    <Compile Include="003_Исключения\Examples\20-eafp.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\00_iterables.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\01-iterables.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\02-iterables.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\03-iterable_with_getitem.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\04-list_iterator.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\05-iterator.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\06-iterable_with_an_iterator.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\07-range-generator.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\08-fibonacci-sequence.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\09-generator-expressions.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\10-delegating-to-subgenerator.py" />
+    <Compile Include="004_Итераторы и генераторы\Examples\11-producer-consumer-coroutines.py" />
+    <Compile Include="005_Последовательности\Examples\00-sequences.py" />
+    <Compile Include="005_Последовательности\Examples\01-sequences.py" />
+    <Compile Include="005_Последовательности\Examples\02-range.py" />
+    <Compile Include="005_Последовательности\Examples\03-__contains__.py" />
+    <Compile Include="005_Последовательности\Examples\04-concatenation.py" />
+    <Compile Include="005_Последовательности\Examples\05-n_times_concatenation.py" />
+    <Compile Include="005_Последовательности\Examples\06-indexing_and_slicing.py" />
+    <Compile Include="005_Последовательности\Examples\07-min_max_sum.py" />
+    <Compile Include="005_Последовательности\Examples\08-index.py" />
+    <Compile Include="005_Последовательности\Examples\09_count.py" />
+    <Compile Include="005_Последовательности\Examples\10-assignment_and_deleting.py" />
+    <Compile Include="005_Последовательности\Examples\11-mutable_sequences_methods.py" />
+    <Compile Include="005_Последовательности\Examples\12-mutable_sequences_methods.py" />
+    <Compile Include="005_Последовательности\Examples\13-list_comprehension.py" />
+    <Compile Include="005_Последовательности\Examples\14-sort.py" />
+    <Compile Include="005_Последовательности\Examples\15-list_shallow_copy_bug.py" />
+    <Compile Include="005_Последовательности\Examples\16-tuples.py" />
+    <Compile Include="005_Последовательности\Examples\17-tuple_unpacking.py" />
+    <Compile Include="005_Последовательности\Examples\18-zip_enumerate.py" />
+    <Compile Include="005_Последовательности\Examples\19-unpacking_argument_list.py" />
+    <Compile Include="005_Последовательности\Examples\20-comparing_sequences.py" />
+    <Compile Include="006_Множества и отображения\Examples\00-sets_creation.py" />
+    <Compile Include="006_Множества и отображения\Examples\01-set_comprehensions.py" />
+    <Compile Include="006_Множества и отображения\Examples\02-set_constructor.py" />
+    <Compile Include="006_Множества и отображения\Examples\03-generic_set_operations.py" />
+    <Compile Include="006_Множества и отображения\Examples\04-difference_between_methods_and_operations.py" />
+    <Compile Include="006_Множества и отображения\Examples\05-mutable_set_operations.py" />
+    <Compile Include="006_Множества и отображения\Examples\06-set_equality.py" />
+    <Compile Include="006_Множества и отображения\Examples\07-dict_creation.py" />
+    <Compile Include="006_Множества и отображения\Examples\08-arbitrary_number_of_keyword_args.py" />
+    <Compile Include="006_Множества и отображения\Examples\09-dict_operations.py" />
+    <Compile Include="006_Множества и отображения\Examples\10-dict_views.py" />
+    <Compile Include="006_Множества и отображения\Examples\11-counter.py" />
+    <Compile Include="007_Модули\Examples\00_Module\fibonacci.py" />
+    <Compile Include="007_Модули\Examples\01_ImportingModule\example1.py" />
+    <Compile Include="007_Модули\Examples\01_ImportingModule\example2.py" />
+    <Compile Include="007_Модули\Examples\01_ImportingModule\fibonacci.py" />
+    <Compile Include="007_Модули\Examples\02_ImportFromModule\example1.py" />
+    <Compile Include="007_Модули\Examples\02_ImportFromModule\example2.py" />
+    <Compile Include="007_Модули\Examples\02_ImportFromModule\example3.py" />
+    <Compile Include="007_Модули\Examples\02_ImportFromModule\example4.py" />
+    <Compile Include="007_Модули\Examples\02_ImportFromModule\example5.py" />
+    <Compile Include="007_Модули\Examples\02_ImportFromModule\fibonacci.py" />
+    <Compile Include="007_Модули\Examples\03_ModuleSearchPath\main.py" />
+    <Compile Include="007_Модули\Examples\04_Packages\application\controllers\home.py" />
+    <Compile Include="007_Модули\Examples\04_Packages\application\controllers\__init__.py" />
+    <Compile Include="007_Модули\Examples\04_Packages\application\models\article.py" />
+    <Compile Include="007_Модули\Examples\04_Packages\application\models\__init__.py" />
+    <Compile Include="007_Модули\Examples\04_Packages\application\tests.py" />
+    <Compile Include="007_Модули\Examples\04_Packages\application\__init__.py" />
+    <Compile Include="007_Модули\Examples\04_Packages\framework\models.py" />
+    <Compile Include="007_Модули\Examples\04_Packages\framework\__init__.py" />
+    <Compile Include="007_Модули\Examples\04_Packages\run.py" />
+    <Compile Include="007_Модули\Examples\05_StdlibRandom\example.py" />
+    <Compile Include="007_Модули\Examples\06_StdlibDecimal\example.py" />
+    <Compile Include="007_Модули\Examples\07_StdlibFractions\example.py" />
+    <Compile Include="007_Модули\Examples\08_StdlibCopy\example.py" />
+    <Compile Include="007_Модули\Examples\09_StdlibDatetime\example.py" />
+    <Compile Include="008_Ввод и вывод\Examples\00-read_file.py" />
+    <Compile Include="008_Ввод и вывод\Examples\01-filename_construction.py" />
+    <Compile Include="008_Ввод и вывод\Examples\02-write_file.py" />
+    <Compile Include="008_Ввод и вывод\Examples\03-with_statement.py" />
+    <Compile Include="008_Ввод и вывод\Examples\04-read_module_source.py" />
+    <Compile Include="008_Ввод и вывод\Examples\05-open_for_rw.py" />
+    <Compile Include="008_Ввод и вывод\Examples\06-open_for_appending.py" />
+    <Compile Include="008_Ввод и вывод\Examples\07-rewrite_file.py" />
+    <Compile Include="008_Ввод и вывод\Examples\08-string_io.py" />
+    <Compile Include="008_Ввод и вывод\Examples\09-binary_file.py" />
+    <Compile Include="008_Ввод и вывод\Examples\10-json_example.py" />
+    <Compile Include="008_Ввод и вывод\Examples\11-pickle_example.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\00-functions_as_first_class_objects.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\01-lambda_expressions.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\02-closures.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\03-advanced_closure_example.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\04-currying.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\05-decorator.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\06-map.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\07-filter.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\08-reduce.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\09-lru_cache.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\10-partial.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\11-combinatorics.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\12-product.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\13-chain.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\14-takewhile_dropwhile.py" />
+    <Compile Include="009_Элементы функционального программирования\Examples\15-operator.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 1\task1.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 1\task2.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 1\task3.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 2\task1.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 2\task2.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 2\task3.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 3\task2.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 3\task3.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 4\task1.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 4\task2.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 4\task3.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 5\task1.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 5\task3.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 6\task1.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 6\task2.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 6\task2_for_advanced_learners.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 7\Task1\cli_main.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 7\Task1\links_db.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 7\Task1\web_server.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 8\Task1\config.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 8\Task1\reader.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 8\Task1\writer.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 8\Task2\config.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 8\Task2\reader.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 8\Task2\writer.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 8\Task3\cli_main.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 8\Task3\links_db.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 8\Task3\web_server.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 9\task2.py" />
+    <Compile Include="Ответы к домашним заданиям\Lesson 9\task3.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="007_Модули\Examples\04_Packages\application\views\info.txt" />
+    <Content Include="008_Ввод и вывод\Examples\data\example05.txt" />
+    <Content Include="008_Ввод и вывод\Examples\data\example07.txt" />
+    <Content Include="008_Ввод и вывод\Examples\data\file.txt" />
+    <Content Include="Ответы к домашним заданиям\Lesson 6\templates\task2_for_advaced_learners.html" />
+    <Content Include="Ответы к домашним заданиям\Lesson 7\Task1\templates\add_link.html" />
+    <Content Include="Ответы к домашним заданиям\Lesson 8\Task1\data.txt" />
+    <Content Include="Ответы к домашним заданиям\Lesson 8\Task3\templates\add_link.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="001_Введение в ООП\" />
+    <Folder Include="001_Введение в ООП\Examples" />
+    <Folder Include="002_Наследование и полиморфизм\" />
+    <Folder Include="002_Наследование и полиморфизм\Examples" />
+    <Folder Include="003_Исключения\" />
+    <Folder Include="003_Исключения\Examples" />
+    <Folder Include="004_Итераторы и генераторы\" />
+    <Folder Include="004_Итераторы и генераторы\Examples" />
+    <Folder Include="005_Последовательности\" />
+    <Folder Include="005_Последовательности\Examples" />
+    <Folder Include="006_Множества и отображения\" />
+    <Folder Include="006_Множества и отображения\Examples" />
+    <Folder Include="007_Модули\" />
+    <Folder Include="007_Модули\Examples\" />
+    <Folder Include="007_Модули\Examples\00_Module" />
+    <Folder Include="007_Модули\Examples\01_ImportingModule" />
+    <Folder Include="007_Модули\Examples\02_ImportFromModule" />
+    <Folder Include="007_Модули\Examples\03_ModuleSearchPath" />
+    <Folder Include="007_Модули\Examples\04_Packages" />
+    <Folder Include="007_Модули\Examples\04_Packages\application" />
+    <Folder Include="007_Модули\Examples\04_Packages\application\controllers" />
+    <Folder Include="007_Модули\Examples\04_Packages\application\models" />
+    <Folder Include="007_Модули\Examples\04_Packages\application\views" />
+    <Folder Include="007_Модули\Examples\04_Packages\framework" />
+    <Folder Include="007_Модули\Examples\05_StdlibRandom" />
+    <Folder Include="007_Модули\Examples\06_StdlibDecimal" />
+    <Folder Include="007_Модули\Examples\07_StdlibFractions" />
+    <Folder Include="007_Модули\Examples\08_StdlibCopy" />
+    <Folder Include="007_Модули\Examples\09_StdlibDatetime" />
+    <Folder Include="008_Ввод и вывод\" />
+    <Folder Include="008_Ввод и вывод\Examples" />
+    <Folder Include="008_Ввод и вывод\Examples\data" />
+    <Folder Include="009_Элементы функционального программирования\" />
+    <Folder Include="009_Элементы функционального программирования\Examples" />
+    <Folder Include="Ответы к домашним заданиям\" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 1" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 2" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 3" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 4" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 5" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 6" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 6\templates" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 7\" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 7\Task1" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 7\Task1\templates" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 8\" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 8\Task1" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 8\Task2" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 8\Task3" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 8\Task3\templates" />
+    <Folder Include="Ответы к домашним заданиям\Lesson 9" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.10" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
